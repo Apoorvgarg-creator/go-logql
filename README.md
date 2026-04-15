@@ -10,7 +10,7 @@ A pure Go query builder for [Grafana Loki's LogQL](https://grafana.com/docs/loki
 ## Installation
 
 ```bash
-go get github.com/apoorvgarg/go-logql
+go get github.com/Apoorvgarg-creator/go-logql
 ```
 
 ## Quick Start
@@ -22,7 +22,7 @@ import (
     "fmt"
     "time"
 
-    logql "github.com/apoorvgarg/go-logql"
+    logql "github.com/Apoorvgarg-creator/go-logql"
 )
 
 func main() {

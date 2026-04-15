@@ -1,7 +1,7 @@
-module github.com/apoorvgarg/go-logql/examples
+module github.com/Apoorvgarg-creator/go-logql/examples
 
 go 1.21
 
-require github.com/apoorvgarg/go-logql v0.0.0
+require github.com/Apoorvgarg-creator/go-logql v0.0.0
 
-replace github.com/apoorvgarg/go-logql => ../
+replace github.com/Apoorvgarg-creator/go-logql => ../
