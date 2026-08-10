@@ -1,3 +1,5 @@
+
+
 # go-logql
 
 A pure Go query builder for [Grafana Loki's LogQL](https://grafana.com/docs/loki/latest/query/) query language.
@@ -363,7 +365,7 @@ topk(3, rate({job=~".+"} [5m]))
 
 **Worker queue logs only:**
 ```
-{job="worker"} | json | queue == "payments"
+{job="worker"} | json | queue = "payments"
 ```
 
 ### 4. Run the Example Go Program
